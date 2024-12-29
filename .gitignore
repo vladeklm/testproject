@@ -1,0 +1,106 @@
+# OS generated files
+#########################
+*.DS_Store
+Thumbs.db
+
+# Visual Studio / JetBrains Rider specific files
+#########################
+.vs/
+*.suo
+_ReSharper.*
+*.ReSharper.user
+*.user
+*.userosscache
+
+# Build results
+#########################
+bin/
+obj/
+
+# User-specific files
+#########################
+*.user
+*.tmp
+*.cache
+
+# NuGet Packages
+#########################
+packages/
+**/packages/*
+!**/packages/repositories.config
+
+# Azure Functions artifacts
+#########################
+artifacts/
+
+# Directories used by the build pipeline (can be parts of build output)
+#########################
+Temp/
+temp/
+
+# SQL Server files
+#########################
+*/*.mdf
+*/*.ldf
+*/*.ndf
+
+# Reporting & Profiling files
+#########################
+*.rdl.data
+*.Profiling.xml
+
+# Business Intelligence projects
+#########################
+*.bim.layout
+*.sln.docstates
+
+# Backup & report files
+#########################
+_Backup*
+*.bak
+
+# Coverage related files
+#########################
+CoverageData.*
+
+# StyleCop related files
+#########################
+StyleCopCache.config
+
+# Installer projects output
+#########################
+*.build
+
+# ClickOnce directory (published application folder)
+#########################
+publish/
+
+# Published Websites
+#########################
+_PublishedWebsites/
+
+# NuGet packages folder
+#########################
+.nuget/
+
+# Code coverage directories and files
+#########################
+coverage
+*.coverage
+*.coveragexml
+
+# Temporal ASP.NET Core MVC migration files
+#########################
+MigrationsAssemblyInfo.cs
+
+# Local App Settings
+#########################
+appsettings.local.json
+appsettings.Development.json
+secrets.json
+
+# Others
+#########################
+.idea/
+.DS_Store
+node_modules/
